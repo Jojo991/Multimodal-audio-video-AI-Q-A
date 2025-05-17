@@ -1,0 +1,44 @@
+
+---
+
+### **.gitignore**
+
+Below is the `.gitignore` file to ensure unnecessary files are excluded from the repository:
+
+```plaintext
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and database files
+*.log
+*.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# Python virtual environment
+/venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Application files
+data/audio/
+data/transcripts/
+*.mp3
+*.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Miscellaneous
+*.bak
+*.swp
